@@ -1,3 +1,4 @@
+```
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dbo:	<http://dbpedia.org/ontology/> .
 dbo:popularVote	rdfs:domain	dbo:Election .
@@ -28,3 +29,4 @@ dbo:Election	prov:wasDerivedFrom	ns7:Election .
 @prefix ov:	<http://open.vocab.org/terms/> .
 dbo:	ov:defines	dbo:Election .
 <http://dbpedia.org/ontology/data/definitions.ttl>	ov:describes	dbo:Election .
+```
